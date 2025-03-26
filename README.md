@@ -34,7 +34,9 @@ Ministers can register new users, while other roles have limited access.
     │ ├── DOC_APS_6SEM.pdf # Contains documentation and reports related to the project.
 
 <h2>🚀 Getting Started</h2> 
-**Prerequisites**: - Windows 10+ - .NET 6.0+ - Camera (720p minimum resolution)
+**Prerequisites**: 
+- Windows 10+ 
+- .NET 6.0+ - Camera (720p minimum resolution)
 Steps:
 
 Clone the repository.
