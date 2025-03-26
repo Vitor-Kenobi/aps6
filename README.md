@@ -18,18 +18,18 @@ The system operates in three main stages: 1. **Login**: Users enter their CPF (B
 Ministers can register new users, while other roles have limited access.
 
 <h2>🗂️ Project Structure</h2> 
-``` aps6/ 
-    ├── database/ 
-    │ └── CNPAdb.db # SQLite database (investigations + users) 
-    ├── resources/ 
-    │ └── imagens/ # Stores user facial images (CPF.jpg) 
-    ├── CNPA/ 
-    │ ├── AcessarBanco.cs # Database operations (SQLite) 
-    │ ├── Cadastro.cs # User registration logic 
-    │ ├── Informacoes.cs # Displays data based on access level 
-    │ ├── Login.cs # Handles facial authentication 
-    │ ├── Reconhecimento.cs # Facial recognition logic (FaceAiSharp) 
-    │ └── Program.cs # Entry point └── packages/ # NuGet dependencies (FaceAiSharp, OpenCvSharp4, etc.) ``` 
+    aps6/ <br>
+    ├── database/ <br>
+    │ └── CNPAdb.db # SQLite database (investigations + users) <br>
+    ├── resources/ <br>
+    │ └── imagens/ # Stores user facial images (CPF.jpg) <br>
+    ├── CNPA/ <br>
+    │ ├── AcessarBanco.cs # Database operations (SQLite) <br>
+    │ ├── Cadastro.cs # User registration logic <br>
+    │ ├── Informacoes.cs # Displays data based on access level <br>
+    │ ├── Login.cs # Handles facial authentication <br>
+    │ ├── Reconhecimento.cs # Facial recognition logic (FaceAiSharp) <br>
+    │ └── Program.cs # Entry point └── packages/ # NuGet dependencies (FaceAiSharp, OpenCvSharp4, etc.) 
 
 <h2>🚀 Getting Started</h2> 
 **Prerequisites**: - Windows 10+ - .NET 6.0+ - Camera (720p minimum resolution)
